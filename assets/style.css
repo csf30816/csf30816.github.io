@@ -1,5 +1,8 @@
 body {
   margin: 0;
+}
+
+main {
   background: #4caf50;
   background: -moz-linear-gradient(
     -45deg,
@@ -23,13 +26,4 @@ body {
   );
   height: 100vh;
   width: 100vw;
-}
-
-.main {
-  max-width: 800px;
-  margin: 20px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  padding: 10px;
 }
