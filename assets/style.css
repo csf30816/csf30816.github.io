@@ -16,3 +16,10 @@ main {
   max-width: 800px;
   margin: auto;
 }
+
+.box {
+  margin: 10px;
+  background-color: #fff;
+  max-width: 400px;
+  min-width: 100px;
+}
