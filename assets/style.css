@@ -18,11 +18,14 @@ main {
 .content {
   max-width: 800px;
   margin: auto;
+  display: flex;
 }
 
 .box {
   margin: 10px;
+  padding: 10px;
   background-color: #fff;
   max-width: 400px;
   min-width: 100px;
+  flex: 1;
 }
