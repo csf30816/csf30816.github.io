@@ -19,10 +19,11 @@ main {
   max-width: 800px;
   margin: auto;
   display: flex;
+  padding: 10px;
 }
 
 .box {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
   background-color: #fff;
   max-width: 400px;
