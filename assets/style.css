@@ -21,4 +21,6 @@ body {
     endColorstr='#5c6bc0',
     GradientType=1
   );
+  height: 100vh;
+  width: 100vw;
 }
