@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-size: 18px;
+  background-color: #eee;
 }
 
 body * {
@@ -27,6 +28,35 @@ main {
   margin: auto;
   display: block;
   padding: 10px;
+}
+
+.nav {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,0.8);
+  top: 0;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.nav button {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px #001f3f;
+  height: 40px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.nav button:hover {
+  border-radius: 5px;
+  background-color: #001f3f;
+  box-shadow: none;
+  color: white;
 }
 
 .box {
