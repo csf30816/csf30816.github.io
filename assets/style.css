@@ -16,17 +16,16 @@ main {
   background: -webkit-linear-gradient(-45deg,#4caf50 0%,#5c6bc0 100%);
   background: linear-gradient(135deg,#4caf50 0%,#5c6bc0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4caf50',endColorstr='#5c6bc0',GradientType=1);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: fixed;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -100000;
 }
 
 .content {
   max-width: 800px;
   margin: auto;
-  display: flex;
+  display: block;
   padding: 10px;
 }
 
@@ -36,9 +35,9 @@ main {
   background-color: rgba(255,255,255,0.8);
   max-width: 400px;
   min-width: 100px;
-  flex: 1;
   box-shadow: 0 1px 10px rgba(0,0,0,0.12);
   border-radius: 2px;
+  margin-bottom: 20px;
 }
 
 .box h2 {
