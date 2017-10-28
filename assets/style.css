@@ -39,7 +39,7 @@ main {
 }
 
 .nav {
-  padding: 10px;
+  padding: 6px 8px;
   width: 100%;
   box-sizing: border-box;
   background-color: rgba(255,255,255,0.8);
@@ -58,12 +58,24 @@ main {
   cursor: pointer;
   transition: all 0.3s ease;
   border: none;
+  margin: 4px 2px;
+  color: #001f3f;
 }
 
 .nav button:hover {
   border-radius: 5px;
   background-color: #001f3f;
   box-shadow: none;
+  color: white;
+}
+
+.nav button a {
+  transition: all 0.15s ease;
+  color: #001f3f;
+}
+
+.nav button:hover a {
+  transition: all 0.3s ease;
   color: white;
 }
 
@@ -114,8 +126,13 @@ main {
 .center {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 10px;
 }
 
 .section {
@@ -125,6 +142,10 @@ main {
 
 * .color-blue {
   color: #0074D9;
+}
+
+button a {
+  text-decoration: none;
 }
 
 ::-webkit-scrollbar {
@@ -141,4 +162,13 @@ main {
 ::-webkit-scrollbar-track {
   border-radius: 0;
   background-color: #555;
+}
+
+@media (max-width: 400px) {
+  .nav button {
+    display: none;
+  }
+  .nav button.special {
+    display: block;
+  }
 }
