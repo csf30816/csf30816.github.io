@@ -155,7 +155,7 @@ main {
 
 .section .inner.flex .item {
   padding: 10px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   border-radius: 2px;
   box-shadow: 0 1px 10px rgba(0,0,0,0.5);
   flex: 1;
@@ -179,6 +179,12 @@ main {
   margin: 10px 0 0 0;
   max-height: 100px;
   overflow: auto;
+}
+
+.section .inner.flex .item img {
+  display: block;
+  margin: 0 auto 5px auto;
+  border-radius: 5px;
 }
 
 .section .inner.flex .item a {
