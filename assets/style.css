@@ -40,10 +40,11 @@ main {
 
 .nav {
   padding: 6px 8px;
-  width: 100%;
+  max-width: 800px;
+  z-index: 2;
+  top: 10px;
   box-sizing: border-box;
   background-color: rgba(255,255,255,0.8);
-  top: 0;
   border-radius: 2px;
   margin-bottom: 20px;
   color: #fff;
