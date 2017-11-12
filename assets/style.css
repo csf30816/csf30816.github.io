@@ -15,6 +15,7 @@ body {
 body * {
   color: #333;
   font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
 }
 
 main {
