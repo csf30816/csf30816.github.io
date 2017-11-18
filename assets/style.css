@@ -44,7 +44,7 @@ main {
   z-index: 2;
   top: 10px;
   box-sizing: border-box;
-  background-color: rgba(255,255,255,0.8);
+  background-color: #eee;
   border-radius: 2px;
   margin-bottom: 20px;
   color: #fff;
@@ -163,6 +163,7 @@ main {
   flex: 1;
   margin: 5px 5px 10px 5px;
   color: #fff;
+  text-align: justify;
 }
 
 .section .inner .item {
@@ -172,6 +173,7 @@ main {
   box-shadow: 0 1px 10px rgba(0,0,0,0.5);
   margin: 5px 5px 10px 5px;
   color: #fff;
+  text-align: justify;
 }
 
 .section .inner .item * {
@@ -211,6 +213,74 @@ main {
   color: #FFDC00;
   font-weight: bold;
   text-decoration: none;
+}
+
+.section .inner .copy {
+  background-color: #ddd;
+  border: 2px solid #ccc;
+  padding: 10px 5px;
+  font-size: 18px;
+  position: relative;
+  overflow-x: auto;
+  margin: 10px 5px;
+}
+
+.section .inner .copy button {
+  background: url(https://png.icons8.com/checkmark/win10/28/ffffff);
+  background: url(https://png.icons8.com/copy/win10/28/000000);
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
+  border: 0;
+  background-color: #ccc;
+  width: 43px;
+  cursor: pointer;
+}
+
+.section .inner .copy button.clicked {
+  background: url(https://png.icons8.com/checkmark/win10/28/ffffff);
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
+  border: 0;
+  background-color: #555;
+  width: 43px;
+}
+
+.section .inner .copy.clicked {
+  border: 2px solid #555;
+}
+
+.section .inner .notif {
+  background-color: #FF851B;
+  padding: 15px 10px;
+  margin: 5px 5px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.section .inner .notif a {
+  color: #ccc;
+}
+
+.section .inner .notif * {
+  color: #fff;
+}
+
+.section .inner .notif b {
+  color: #d2d2ff;
+}
+
+.section .inner .notif:nth-child(2n) {
+  background-color: #B10DC9;
 }
 
 * .color-blue {
